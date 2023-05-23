@@ -1,35 +1,47 @@
 body {
     background-color: #FFF7C9;
-    width: 82%;
+    width: 90%;
     margin: auto;
     font-family: "Work Sans", sans-serif;
 }
 
 .section-1-container {
     display: flex;
+    flex: 1;
     color: #001CCC;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
 }
 
 .skills-flex-container {
     display: flex;
+    /* flex: 1; */
     flex-wrap: nowrap;
     flex-direction: row;
-    margin: auto;
-   
+    gap: 62px;   
 }
+
+/* .skills-flex-container > div {
+    flex: 1;
+} */
+
+/* .user-research-wrapper,
+.visual-design-wrapper,
+.prototyping-wrapper,
+.user-testing-wrapper */
 
 .skill-wrap {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    flex-wrap: nowrap;
+    /* width:22rem; */
     font-size: 1.2rem;
     font-weight: 600;
     align-items: center;
     color: #303A36;
-    /* padding: 1%; */
-
+    white-space: nowrap;  
 }
 
 .skills-headline {
@@ -37,6 +49,16 @@ body {
     font-weight: 800;
     font-size:1.8rem;
     flex: 100%; 
+}
+
+.tools-wrapper p {
+    font-weight: 200;
+    font-size: 1rem;
+    background-color: #001CCC;
+    color: white;
+    /* top | right | bottom | left */
+    padding: .4em .6em .4em .6em;
+    border-radius: .2em;
 }
 
 .logo {
@@ -155,6 +177,17 @@ body {
 .collection-item {
     padding-bottom: 2%;
 }
+
+/* .tools p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase; 
+  background-color: #001CCC;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  margin: 0.4rem;
+} */
 
 /* .navigation {
     display: flex;
